@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="My HTML table populated with dummy data">
+    <meta name="author" content="Crystal Koo">
+    <title>My very first HTML table</title>
+
+    <style>
+        table,
+        th,
+        td {
+            text-align: left;
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 0.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Javascript Tech Stacks for 2022</h1>
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Stacks</th>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th rowspan="3">The Wild Trio</th>
+                    <td>MERN</td>
+                    <td>React</td>
+                    <td rowspan="3">MongoDB,<br>Express, Node.js</td>
+                </tr>
+                <tr>
+                    <td>MEAN</td>
+                    <td>Angular</td>
+                </tr>
+                <tr>
+                    <td>MEVN</td>
+                    <td>Vue</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="3">The SQL Lovers</th>
+                    <td>PERN</td>
+                    <td>React</td>
+                    <td rowspan="3">PostgreSQL,<br>Express, Node.js</td>
+                </tr>
+                <tr>
+                    <td>PEAN</td>
+                    <td>Angular</td>
+                </tr>
+                <tr>
+                    <td>PEVN</td>
+                    <td>Vue</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
