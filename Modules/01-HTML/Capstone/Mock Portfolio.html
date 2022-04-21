@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="A simple about me page">
+    <meta name="author" content="Crystal Koo">
+    <title>Mock Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        h1,
+        h2 {
+            margin: 0;
+        }
+
+        nav>ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+            font-size: 1.2rem;
+            margin: 0;
+            padding: 0;
+            padding: 1rem;
+        }
+
+        .skill_list {
+            padding-left: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-spacing: 1rem;
+        }
+
+        td>p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .skills {
+            width: 30%;
+            border: 1px solid black;
+            padding: 1rem;
+        }
+
+        footer {
+            padding: 1rem;
+            background-color: #e5e5e5;
+            position: fixed;
+            bottom: 0;
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <h1>Crystal Koo</h1>
+                </li>
+                <li><a href="mailto:96crystal.k@gmail.com">Contact Me</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section class="bio">
+            <table>
+                <tr>
+                    <th>
+                        <h2>Frontend Developer</h2>
+                    </th>
+                    <td class="skills" rowspan="2">
+                        <h3>Skills</h3>
+                        <ul class="skill_list">
+                            <li>Javascript, OOP</li>
+                            <li>HTML, CSS, Bootstrap, Bulma</li>
+                            <li>Affinity Photo, GIMP, Inkscape, Canva</li>
+                            <li>Sketch, Invision, Webflow</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>A result-driven frontend developer seeking to help companies create and maintain better code
+                            base for reusability. Enjoy working closely with team members to create, test, debug, and
+                            deploy interactive and user-friendly apps. With a passion for both personal growth and web
+                            development, I have joined a few supportive tech communities, and completed multiple web
+                            development courses as well as frontend projects. </p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <form action="#">
+            <h3>Let's work together</h3>
+            <input type="text" name="client_name" id="name" placeholder="Your name" required> <br>
+            <input type="email" name="email_address" id="email" placeholder="Your email address" required> <br>
+            <button>Submit</button>
+        </form>
+
+        <p>96crystal.k@gmail.com <br>
+            &copy; Crystal Koo 2022</p>
+    </footer>
+</body>
+
+</html>
