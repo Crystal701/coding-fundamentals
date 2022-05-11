@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Building an eye-catching contact page with flexbox that makes users want to contact you.">
+    <meta name="author" content="Crystal Koo">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <title>Contact Page</title>
+    <link rel="icon" href="https://cdn.worldvectorlogo.com/logos/crystal-2.svg" type="image/svg">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="https://cdn.worldvectorlogo.com/logos/crystal-2.svg" alt="Crystal Koo's logo">
+
+            <ul>
+                <li>
+                    <a href="#">About</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                    <div></div>
+                </li>
+                <li class="contact-btn">
+                    <a href="#">Contact Me</a>
+                    <div></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p class="tags">&#60;main&#62;</p>
+        <p class="tags section">&#60;section&#62;</p>
+
+        <section>
+            <div class="contact-card">
+                <p class="tags">&#60;h1&#62;</p>
+                <h1>Web
+                    <div class="word-switch">
+                        <ul>
+                            <li class="sites">sites</li>
+                            <li class="apps">apps</li>
+                        </ul>
+                    </div>
+                    <span>done right.</span>
+                </h1>
+                <p class="tags">&#60;/h1&#62;</p>
+
+                <p class="tags">&#60;p&#62;</p>
+                <p class="description">I love to help people and companies bring their ideas to life. Pop me a message
+                    if you'd like to chat about a project or if there's any questions. </p>
+                <p class="tags">&#60;/p&#62;</p>
+
+                <div class="contact">
+                    <a href="https://wa.me/60169121083" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384095.png" alt="Whatsapp logo">
+                        <span>+60 16-912 1083</span>
+                    </a>
+                    <a href="mailto:96crystal.k@gmail.com" target="_blank">
+                        <img src="https://cdn-icons.flaticon.com/png/128/542/premium/542638.png?token=exp=1652248596~hmac=53d18bc0fdd941c6e5fe4cac68d04bff"
+                            alt="Email logo">
+                        <span>96crystal.k@gmail.com</span>
+                    </a>
+                </div>
+
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/crystal-koo-675863192/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384014.png" alt="Linkedin button">
+                    </a>
+                    <a href="https://github.com/Crystal701" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1051/1051326.png" alt="Github button">
+                    </a>
+                    <a href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="Facebook logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="form-container">
+                <p class="tags">&#60;form&#62;</p>
+
+                <form action="#">
+                    <h2>Let's Chat!</h2>
+
+                    <div>
+                        <div class="name-fields">
+                            <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+
+                            <input type="text" id="lastname" name="lastname" placeholder="Last Name (Optional)">
+                        </div>
+
+                        <div class="contact-fields">
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+
+                            <input type="tel" id="tel" name="tel" placeholder="Mobile (Optional)">
+                        </div>
+
+                        <div>
+                            <input type="text" id="subject" name="subject" placeholder="Subject">
+                        </div>
+
+                        <div>
+                            <textarea name="message" id="message" maxlength="300"
+                                placeholder="Message (Optional)"></textarea>
+                        </div>
+
+                        <button>Submit</button>
+                    </div>
+                </form>
+
+                <p class="tags">&#60;/form&#62;</p>
+            </div>
+        </section>
+
+        <p class="tags section">&#60;/section&#62;</p>
+        <p class="tags">&#60;/main&#62;</p>
+    </main>
+</body>
+
+</html>
