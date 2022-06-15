@@ -85,3 +85,15 @@ button:hover {
     background-color: #000000;
     cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+    section {
+        grid-template-areas: "div div";
+    }
+}
+
+@media (max-width: 800px) {
+    section {
+        grid-template-areas: "div";
+    }
+}
