@@ -1,0 +1,160 @@
+@media (max-width: 1300px) {
+    .form-container {
+        flex: 1.5;
+    }
+}
+
+@media (max-width: 1150px) {
+    nav ul {
+        width: 30vw;
+    }
+
+    section {
+        margin-right: 0;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    .word-switch {
+        height: 3.3rem;
+        width: 8rem;
+    }
+
+    @keyframes slide {
+        35% {
+            transform: translateY(0);
+            color: #8b46fa;
+        }
+
+        50% {
+            transform: translateY(-3.4rem);
+            color: #4130c4;
+        }
+
+        85% {
+            transform: translateY(-3.4rem);
+            color: #4130c4;
+        }
+
+        100% {
+            transform: translateY(0);
+            color: #8b46fa;
+        }
+    }
+
+    .form-container {
+        flex: 1.2;
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 950px) {
+    nav ul {
+        width: 45vw;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+
+    section {
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .contact-card {
+        padding: 2.5rem;
+    }
+
+    .form-container {
+        margin-top: 2rem;
+        padding-left: 0;
+        height: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        width: 55vw;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    section {
+        margin: 0 0.5rem;
+    }
+
+    .contact-card {
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .word-switch {
+        height: 2.7rem;
+        width: 6.5rem;
+    }
+
+    @keyframes slide {
+        35% {
+            transform: translateY(0);
+            color: #8b46fa;
+        }
+
+        50% {
+            transform: translateY(-2.7rem);
+            color: #4130c4;
+        }
+
+        85% {
+            transform: translateY(-2.7rem);
+            color: #4130c4;
+        }
+
+        100% {
+            transform: translateY(0);
+            color: #8b46fa;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    nav ul {
+        width: 60vw;
+        font-size: 0.7rem;
+    }
+
+    .tags {
+        display: none;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    section {
+        margin: 0;
+    }
+
+    .contact-card {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    .name-fields,
+    .contact-fields {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+    }
+}
