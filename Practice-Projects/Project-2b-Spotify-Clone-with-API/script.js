@@ -1,6 +1,6 @@
 let TOKEN;
 const clientID = "d99e62ec61cf40769714bb2076eb1cf1";
-const redirectURI = window.location.origin; //insert default page link/local host with html file
+const redirectURI = window.location.origin; //insert default page url/local host with html file
 const scope = "user-read-private user-read-email user-top-read";
 
 function authorize() {
