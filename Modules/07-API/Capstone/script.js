@@ -24,7 +24,7 @@ function generateData(input) {
         card.classList.add("card");
 
         imgContainer.classList.add("img-box");
-        img.src = data.image.url;
+        img.src = data.image?.url || "https://pictures-of-cats.org/wp-content/uploads/2021/06/European-Burmese-bred-in-Russia1.jpg";
 
         article.innerHTML = `<h3>${data.name}</h3> <p>${data.description}</p>`;
 
